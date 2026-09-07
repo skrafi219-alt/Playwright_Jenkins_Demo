@@ -7,3 +7,5 @@ test('verify Playwright Get Started page', async ({ page }) => {
 
   await expect(page).toHaveURL(/.*intro/);
 });
+
+// Jenkins webhook test
