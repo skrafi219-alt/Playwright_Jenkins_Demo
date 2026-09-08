@@ -18,6 +18,6 @@ for(let i=0;i<=await products.count();i++){
     break;
   }
 }
-await page.pause();
+
 
 });
