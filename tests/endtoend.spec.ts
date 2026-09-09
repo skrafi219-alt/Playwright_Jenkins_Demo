@@ -19,5 +19,7 @@ for(let i=0;i<=await products.count();i++){
   }
 }
 
+await page.locator("[routerlink='/dashboard/cart']").click();
+await expect(page.locator("//h3[text()='ZARA COAT 3']")).toHaveText("ZARA COAT 3");
 
 });
